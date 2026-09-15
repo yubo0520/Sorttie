@@ -1,0 +1,42 @@
+# Dependencies and build output
+node_modules/
+dist/
+dist-electron/
+dist-renderer/
+build/
+out/
+
+# Test and visual artifacts
+test-results/
+playwright-report/
+coverage/
+artifacts/
+screenshots/
+*.png
+
+# Local application state and databases
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+window-state.json
+user-data/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.log
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python leftovers from local tooling
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
